@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+
+    <!-- Bootstrap -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <!-- Custom styles for this template -->
+    <link href="dist/css/navbar-fixed-top.css" rel="stylesheet">
+    <link href="dist/css/carousel.css" rel="stylesheet">
+    <link href="dist/css/custom_home.css" rel="stylesheet">
+	
+	
+	
+    
+    
+    
+  </head>
+ <body>
+     
+     <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">DevNinja</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Tutorials</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">More</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href=#myModal role="button" data-toggle="modal">Contact Me</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Contact Richard</h4>
+      </div>
+      <div class="modal-body">
+      <div class="row">
+      </div> 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    
+    
+       <!----------------------------------------Carousel
+    ================================================== -->
+
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+		    <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+	  
+	  <!--Wrapper for slides-->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="dist/img/post-bg.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+            <!--<h1 id="first_slide">Android Nation</h1>-->
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="dist/img/stonewall.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Resume</h1>
+              <p>Select button below to view my resume.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="dist/img/Colored_Boards.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>For old times sake.</h1>
+              <p>Come take a gander into my life!</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+	    <div class="item">
+          <img src="dist/img/android_vs_apple.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Use The FORCE!!</h1>
+              <p>Come check out my tutorials and learn the way of the DARK SIDE!</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!------------end of carousel-------------->
+  
+	
+	
+	
+	
+	
+	
+	
+	
+	 <div class="container ">
+	   <div class="row">
+	    <div class="col-xs-6 col-lg-3">
+          <p class="lead"><img src="dist/img/HTML5.png" width="140" height="140" class="img-circle"></p>
+          <h2><strong>HTML</strong></h2>
+          <p id="drop" class="lead">With HTML you can create your own Web site. Select button below for tutorials and helpul resources. Lets get started!</p>
+          <p><a id="drop_button1" class="btn btn-danger" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-xs-6 col-lg-3">
+          <p class="lead"><img src="dist/img/CSS3.png" width="140" height="140" class="img-circle"></p>
+          <h2><strong>CSS</strong></h2>
+          <p id="drop2" class="lead">Learn how to use CSS to control the styl and layout of multiple web pages at once!. This is most often used to create the UI for web and mobile applications. Lets take a look!</p>
+          <p><a id="drop_button2"class="btn btn-danger">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-xs-6 col-lg-3">
+          <p class="lead"><img src="dist/img/js_icon.png" width="140" height="140" class="img-circle"></p>
+          <h2><strong>JavaScript</strong></h2>
+          <p id="drop3" class="lead">JavaScript is a dynamic computer programming language.  If you want to put some pep in your web development. This is a must know.  Welcome to the DOM!</p>
+          <p><a id="drop_button3"class="btn btn-danger" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+
+         <div class="col-xs-6 col-lg-3">
+          <p class="lead"><img src="dist/img/django.jpeg" width="140" height="140" class="img-circle"></p>
+          <h2><strong>Python/Django</strong></h2>
+          <p id="drop4"class="lead">Django is a free open source web application written in Python.  This is a Web development framework</p>
+          <p><a id="drop_button4" class="btn btn-danger" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr>
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img id="fox" src="dist/img/black_firefox.png" width="200" height="200" class="featurette-image img-responsive"  alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Fire Fox is an open source web browser.  It's also one of my favorits! I recomment you download it, and see for yourself.</p>
+          <a href="https://www.mozilla.org/en-GB/firefox/new/" class="btn btn-info btn-lg btn-block" role="button">Download</a>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+	  </div><!--------------end of container------------>
+
+    <div class="jumbotron">
+    </div>
+	  
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="dist/js/jquery-1.11.0.js"></script>
+    <script src="dist/js/bootstrap.js"></script>
+    <script src="dist/js/custom_h.js"></script>
+    <script src="../../assets/js/docs.min.js"></script>
+  </body>
+</html>
+

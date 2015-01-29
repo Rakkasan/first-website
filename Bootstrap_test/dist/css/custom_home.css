@@ -1,0 +1,38 @@
+
+
+
+html,
+body {
+ /* background-color: #1693A5;*/
+ background: url(../img/Wood-Background.jpg) no-repeat center center fixed;
+ background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+}
+
+p {
+  color: #fff;
+}
+
+p#drop, #drop2, #drop3, #drop4 {
+ display: none;
+}
+
+h1#first_slide {
+ margin-bottom: 100px;
+ font-size: 100px;
+}
+
+h2 {
+ color: #7CDEF2;
+}
+
+
+img#fox {
+ margin-top: 100px;
+}
+
+.jumbotron {
+ padding-bottom: 200px;
+}

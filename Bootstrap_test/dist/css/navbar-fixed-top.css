@@ -1,0 +1,30 @@
+body {
+  min-height: 2000px;
+  padding-top: 40px;
+}
+  
+
+
+.navbar-default {
+  background-color: #444546;
+  border-color: #444546;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #7CDEF2;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #7CDEF2;
+  background-color: transparent;
+}
+
+/********navbar brand text color***************/
+.navbar-default .navbar-brand {
+  color: #20B778;
+}
+
+
+
+
