@@ -28,6 +28,15 @@ h2 {
  color: #7CDEF2;
 }
 
+.col-md-8.col-md-offset-3 {
+ margin-left: 170px;
+ margin-bottom: 20px;
+}
+
+.alert-info {
+ background-color: #39B3D7;
+}
+
 
 img#fox {
  margin-top: 100px;
@@ -36,3 +45,6 @@ img#fox {
 .jumbotron {
  padding-bottom: 200px;
 }
+
+
+#39B3D7
